@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AddLogoUrlToCompaniesTable' => $baseDir . '/app/database/migrations/2014_06_01_045545_add_logo_url_to_companies_table.php',
     'AddTimestampToCompaniesTable' => $baseDir . '/app/database/migrations/2014_06_01_002256_add_timestamp_to_companies_table.php',
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'Boris\\Boris' => $vendorDir . '/d11wtq/boris/lib/Boris/Boris.php',
