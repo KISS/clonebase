@@ -6,6 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'AddTimestampToCompaniesTable' => $baseDir . '/app/database/migrations/2014_06_01_002256_add_timestamp_to_companies_table.php',
     'BaseController' => $baseDir . '/app/controllers/BaseController.php',
     'Boris\\Boris' => $vendorDir . '/d11wtq/boris/lib/Boris/Boris.php',
     'Boris\\CLIOptionsHandler' => $vendorDir . '/d11wtq/boris/lib/Boris/CLIOptionsHandler.php',
@@ -28,6 +29,10 @@ return array(
     'ClassPreloader\\Parser\\DirVisitor' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/DirVisitor.php',
     'ClassPreloader\\Parser\\FileVisitor' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/FileVisitor.php',
     'ClassPreloader\\Parser\\NodeTraverser' => $vendorDir . '/classpreloader/classpreloader/src/ClassPreloader/Parser/NodeTraverser.php',
+    'CreateCategoriesTable' => $baseDir . '/app/database/migrations/2014_06_01_014404_create_categories_table.php',
+    'CreateCategoryCompanyTable' => $baseDir . '/app/database/migrations/2014_06_01_015332_create_category_company_table.php',
+    'CreateCompaniesTable' => $baseDir . '/app/database/migrations/2014_05_31_231931_create_companies_table.php',
+    'CreateCompetitorsTable' => $baseDir . '/app/database/migrations/2014_06_01_010425_create_competitors_table.php',
     'Crypt_AES' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/AES.php',
     'Crypt_Blowfish' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/Blowfish.php',
     'Crypt_DES' => $vendorDir . '/phpseclib/phpseclib/phpseclib/Crypt/DES.php',
